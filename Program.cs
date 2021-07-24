@@ -32,7 +32,7 @@ namespace swacblooms
                 }
                  n++;
             }
-            ranges.ForEach(i=>Console.WriteLine(string.Join(",",i)));
+            ranges.ForEach(i=>Console.WriteLine($"{string.Join('+',i)} = {target}"));
             return count;
         }
     }
